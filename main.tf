@@ -1,4 +1,4 @@
-resource "aws_instance" "my-instace" {
+resource "aws_instance" "my-instance" {
     ami = "ami-04b4f1a9cf54c11d0"
     instance_type = var.instance_type
     tags = {
