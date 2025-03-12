@@ -1,6 +1,6 @@
 output "instance_Public_Id" {
     description = "Public iP of the Ec2 instance"
-    value = aws_instance.my-instace
+    value = aws_instance.my-instance
   
 }
 
